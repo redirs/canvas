@@ -5,7 +5,7 @@
 @font-face
 {
     font-family: 'Arnold-21';
-    src:url('/tetris/fonts/Arnold-21.ttf.woff') format('woff');
+    src:url('/canvas/fonts/Arnold-21.ttf.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
@@ -13,7 +13,7 @@
 @font-face
 {
     font-family: 'Arnold 2.1';
-    src:url('/tetris/fonts/Arnold-21.ttf.woff') format('woff'); 
+    src:url('/canvas/fonts/Arnold-21.ttf.woff') format('woff'); 
     font-weight: normal;
     font-style: normal;
 }

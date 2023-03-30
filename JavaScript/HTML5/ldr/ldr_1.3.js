@@ -145,7 +145,7 @@
         if (_0x4771xd && _0x4771xe) {
             if (window['parent']['params']) {
                 if (!window['parent']['params']['html5Base']) {
-                    this['basePath'] = "https://ubg101.github.io/tetris/HTML5"
+                    this['basePath'] = "https://ubg101.github.io/canvas/HTML5"
                 }
             };
             console.log("its gonna load the manfiest file");
@@ -242,7 +242,7 @@
         this['queue']['on']('progress', this['ldr_progressChange'], this);
         this['queue']['on']('error', this['ldr_loadError'], this);
         if (_0x4771x1a) {
-            $['getScript']('/tetris/JavaScript/CreateJS/soundjs-0.6.2.min.js', function() {
+            $['getScript']('/canvas/JavaScript/CreateJS/soundjs-0.6.2.min.js', function() {
                 try {
                     if (createjs['Sound']['initializeDefaultPlugins']()) {
                         createjs['Sound']['alternateExtensions'] = ['mp3'];
@@ -256,7 +256,7 @@
         }
     };
     _0x4771x2['loadManifestFile'] = function() {
-        var _0x4771x1b = 'https://ubg101.github.io/tetris/HTML5/manifest.json?_=' + (new Date()['getTime']());
+        var _0x4771x1b = 'https://ubg101.github.io/canvas/HTML5/manifest.json?_=' + (new Date()['getTime']());
         $['getJSON'](_0x4771x1b, function(_0x4771x1c) {
             ResourceInitialiser['setSettings'](_0x4771x1c['settings']);
             var _0x4771x1d = {
