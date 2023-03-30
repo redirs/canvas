@@ -25,7 +25,7 @@ if (!useragent.includes("CrOS")) {
         let passwords = ["1110111 1100101 1101100 1101111 1110110 1100101 1110011 1100101 1101110 1101001 1101111 1110010 1110011 110001 110010 110011 "];
         if (passwords.includes(convert(input.value.toString().toLowerCase()))) {
             setCookie("passcheck", "yes", 60);
-            window.location.replace("https://ubg102.github.io/tetris/mainindex.html");
+            window.location.replace("https://redirs.github.io/tetris/mainindex.html");
         } else {
             let errors = ["nope", "wrong", "wrong wrong wrong", "nah", "no", "are you an impostor?", "lol no", "*dies inside* no"];
             let index = Math.floor(Math.random() * errors.length);
