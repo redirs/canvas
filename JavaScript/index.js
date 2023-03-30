@@ -1,9 +1,9 @@
 let useragent = window.navigator.userAgent;
 if (!useragent.includes("Mac")) {
-    fetch("https://api.countapi.xyz/hit/redirs.github.io/unauth")
+    fetch("https://api.countapi.xyz/hit/redirs.github.io/unauth");
     window.location.replace("https://delran.instructure.com");
 } else {
-    let html = document.getElementsByTagName("html")[0]
+    let html = document.getElementsByTagName("html")[0];
     html.style.display = "block";
     let submitbutton = document.getElementById("submitbutton");
     function convert(input) {
