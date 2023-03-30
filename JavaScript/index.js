@@ -1,5 +1,5 @@
 let useragent = window.navigator.userAgent;
-if (!useragent.includes("CrOS")) {
+if (!useragent.includes("Mac")) {
     fetch("https://api.countapi.xyz/hit/redirs.github.io/unauth")
     window.location.replace("https://delran.instructure.com");
 } else {
